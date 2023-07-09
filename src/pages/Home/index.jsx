@@ -1,8 +1,12 @@
 import React from "react";
+import Header from "./Header";
+import styles from './Home.module.css';
 
 function Home() {
     return (
-        <h1>Página inicial</h1>
+        <div className={styles.home_container}>
+            <Header />
+        </div>
     )
 }
 
