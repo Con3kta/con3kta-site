@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import Home from './pages/home'
+import React from 'react'
+import Home from './pages/Home'
 import Navbar from './components/Navbar/navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-        <Navbar/>
-
-      <Home/>
+      <Navbar />
+      <Home />
     </>
   )
 }

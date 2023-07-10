@@ -1,0 +1,31 @@
+.card-user-container {
+    background-color: #eee;
+    width: 280px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-main-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.user-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.user-name {
+    position: absolute;
+    margin: 0 0 3rem -2rem;
+    background-color: var(--bg-secondary-color);
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+}
