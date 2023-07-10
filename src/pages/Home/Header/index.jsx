@@ -8,6 +8,7 @@ export default function Header() {
   const [model, setModel] = useState(null);
   const [name, setName] = useState("");
   const [stack, setStack] = useState("");
+  
   useEffect(() => {
     setModel(model_one)
     setName("Carolina Castro")
