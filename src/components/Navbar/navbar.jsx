@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from './navbar.module.css';
+import './styles.css'
 
 const Navbar = () => {
   return (
-    <div className={styles.navbar}>
-      <div className={styles.logo}><h3>Con3kta</h3></div>
-      <button className={styles.button}>Login</button>
-    </div>
+    <nav className='navbar-container'>
+      <span className='navbar-logo'>Con3kta</span>
+      <button className='navbar-button'>Login</button>
+    </nav>
   );
 };
 

@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./Header";
-import styles from './Home.module.css';
+import './styles.css';
 import CardUser from "../../components/CardUser";
 
 function Home() {
     return (
-        <div className={styles.home_container}>
+        <div className='home-container'>
             <Header />
             <CardUser />
         </div>

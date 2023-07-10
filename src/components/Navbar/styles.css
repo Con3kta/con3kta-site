@@ -1,4 +1,4 @@
-.navbar {
+.navigation-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,12 +10,12 @@
   width: 100%;
 }
 
-.logo {
+.navigation-logo {
   font-weight: 10rem;
   font-size: 1.5rem;
 }
 
-.button {
+.navigation-button {
   background-color: lightblue;
   color: white;
   padding: 8px 16px;
